@@ -1,0 +1,592 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    color: #111827;
+    background-color: white;
+}
+
+
+/* ===== HEADER ===== */
+
+header {
+    background-color: #192654;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 5px 0 0 0;
+}
+
+#tombol-tema {
+    margin-top: 12px;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 6px;
+    background-color: white;
+    color: #192654;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#tombol-tema:hover {
+    background-color: #dddddd;
+}
+
+
+/* ===== MENU ===== */
+
+nav {
+    background-color: #f5f5f5;
+    padding: 12px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+nav a {
+    color: #172554;
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+nav a:hover {
+    color: #172554;
+}
+
+
+/* ===== LAYOUT ===== */
+
+.tabel-layout {
+    width: 100%;
+}
+
+.kolom-utama {
+    width: 70%;
+    vertical-align: top;
+    padding: 10px;
+}
+
+.kolom-samping {
+    width: 30%;
+    vertical-align: top;
+    padding: 10px;
+}
+
+
+/* ===== JUDUL ===== */
+
+.judul-bagian {
+    color: #172554;
+    border-bottom: 2px solid #172554;
+    padding-bottom: 6px;
+}
+
+.teks-rapi {
+    line-height: 1.6;
+}
+
+
+/* ===== PROFIL + DATA DIRI ===== */
+
+.kotak-profil {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #dddddd;
+    text-align: center;
+}
+
+.kotak-profil h2 {
+    color: #172554;
+    margin-top: 0;
+}
+
+.foto-profil {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 4px solid #172554;
+    object-fit: cover;
+}
+
+.nama-profil {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #172554;
+}
+
+.data-profil {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.data-item {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border: 1px solid #dddddd;
+}
+
+.data-label {
+    color: #172554;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0 0 4px 0;
+}
+
+.data-isi {
+    margin: 0;
+    color: #172554;
+}
+
+
+/* ===== BUKU FAVORIT ===== */
+
+.buku-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 10px 5px 20px 5px;
+}
+
+.buku {
+    min-width: 180px;
+    background-color: #f5f5f5;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #dddddd;
+    text-align: center;
+}
+
+.buku img {
+    width: 150px;
+    height: 210px;
+    object-fit: contain;
+    border-radius: 5px;
+}
+
+.buku h3 {
+    color: #172554;
+    margin-bottom: 5px;
+}
+
+.buku p {
+    margin-top: 5px;
+}
+
+.buku:hover {
+    border-color: #172554;
+}
+
+
+/* ===== HOBI ===== */
+
+.hobi-container {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.hobi {
+    background-color: #f5f5f5;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: 180px;
+}
+
+.hobi h3 {
+    color: #172554;
+    margin-top: 0;
+}
+
+.hobi p {
+    line-height: 1.5;
+}
+
+.hobi:hover {
+    border-color: #172554;
+}
+
+
+/* ===== KONTAK ===== */
+
+.kontak {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.kontak p {
+    color: #172554;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.kontak h1 {
+    font-size: 45px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+.ikon-kontak {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    border: 1px solid #dddddd;
+    border-radius: 50%;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.ikon-kontak img {
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+    object-fit: contain;
+}
+
+.ikon-kontak:hover {
+    background-color: #172554;
+}
+
+
+/* ===== FORMULIR KONTAK ===== */
+
+.formulir-kontak {
+    width: 90%;
+    max-width: 735px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #f5f5f5;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+}
+
+.formulir-kontak h2 {
+    text-align: center;
+    color: #172554;
+    margin-top: 0;
+    font-size: 28px;
+}
+
+.deskripsi-form {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group > label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #172554;
+}
+
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #d0d0d0;
+    border-radius: 6px;
+    box-sizing: border-box;
+    background-color: white;
+    color: #111827;
+}
+
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #172554;
+}
+
+
+.form-group textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+
+/* ===== RADIO + CHECKBOX ===== */
+
+.pilihan {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.pilihan label {
+    font-weight: normal;
+    color: #111827;
+}
+
+.pilihan input {
+    margin-right: 6px;
+}
+
+
+/* ===== PENGHITUNG KARAKTER ===== */
+
+#penghitung-karakter {
+    margin: 6px 0 0;
+    text-align: right;
+    font-size: 13px;
+    color: #777777;
+}
+
+
+/* ===== TOMBOL FORM ===== */
+
+.tombol-form {
+    display: flex;
+    gap: 15px;
+}
+
+.btn-kirim,
+.btn-reset {
+    padding: 11px 24px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-kirim {
+    background-color: #172554;
+    color: white;
+}
+
+.btn-kirim:hover {
+    background-color: #2d4387;
+}
+
+.btn-reset {
+    background-color: #dddddd;
+    color: #172554;
+}
+
+.btn-reset:hover {
+    background-color: #c9c9c9;
+}
+
+
+/* ===== PESAN STATUS ===== */
+
+#pesan-status {
+    margin-top: 18px;
+    font-weight: bold;
+}
+
+
+/* ===== FOOTER ===== */
+
+footer {
+    text-align: center;
+    padding: 15px;
+    color: #777777;
+}
+
+
+/*===== MODE GELAP ================================ */
+
+body.mode-gelap {
+    background-color: #1d1d1d;
+    color: #eeeeee;
+}
+
+
+/* Header */
+
+body.mode-gelap header {
+    background-color: #111827;
+}
+
+
+/* Menu */
+
+body.mode-gelap nav {
+    background-color: #2b2b2b;
+}
+
+body.mode-gelap nav a {
+    color: #ffffff;
+}
+
+
+/* Judul */
+
+body.mode-gelap .judul-bagian {
+    color: #ffffff;
+    border-bottom-color: #ffffff;
+}
+
+
+/* Profil */
+
+body.mode-gelap .kotak-profil {
+    background-color: #2b2b2b;
+    border-color: #555555;
+}
+
+body.mode-gelap .kotak-profil h2 {
+    color: #ffffff;
+}
+
+body.mode-gelap .nama-profil {
+    color: #ffffff;
+}
+
+body.mode-gelap .data-item {
+    background-color: #3a3a3a;
+    border-color: #555555;
+}
+
+body.mode-gelap .data-label,
+body.mode-gelap .data-isi {
+    color: #ffffff;
+}
+
+
+/* Buku */
+
+body.mode-gelap .buku {
+    background-color: #2b2b2b;
+    border-color: #555555;
+}
+
+body.mode-gelap .buku h3 {
+    color: #ffffff;
+}
+
+
+/* Hobi */
+
+body.mode-gelap .hobi {
+    background-color: #2b2b2b;
+    border-color: #555555;
+}
+
+body.mode-gelap .hobi h3 {
+    color: #ffffff;
+}
+
+
+/* Kontak */
+
+body.mode-gelap .kontak p {
+    color: #ffffff;
+}
+
+body.mode-gelap .ikon-kontak {
+    border-color: #666666;
+}
+
+
+/* Form */
+
+body.mode-gelap .formulir-kontak {
+    background-color: #2b2b2b;
+    border-color: #555555;
+}
+
+body.mode-gelap .formulir-kontak h2 {
+    color: #ffffff;
+}
+
+body.mode-gelap .deskripsi-form {
+    color: #eeeeee;
+}
+
+body.mode-gelap .form-group > label {
+    color: #ffffff;
+}
+
+body.mode-gelap
+.form-group input[type="text"],
+body.mode-gelap
+.form-group input[type="email"],
+body.mode-gelap
+.form-group select,
+body.mode-gelap
+.form-group textarea {
+    background-color: #3a3a3a;
+    color: #ffffff;
+    border-color: #666666;
+}
+
+body.mode-gelap .pilihan label {
+    color: #ffffff;
+}
+
+body.mode-gelap .btn-reset {
+    background-color: #555555;
+    color: #ffffff;
+}
+
+
+/* ===== RESPONSIVE ===== */
+
+@media (max-width: 600px) {
+
+    body {
+        margin: 10px;
+    }
+
+    .tabel-layout,
+    .tabel-layout tbody,
+    .tabel-layout tr,
+    .kolom-utama,
+    .kolom-samping {
+        display: block;
+        width: 100%;
+    }
+
+    .kolom-utama,
+    .kolom-samping {
+        padding: 5px;
+    }
+
+    .foto-profil {
+        width: 150px;
+        height: 150px;
+    }
+
+    .kontak h1 {
+        font-size: 35px;
+    }
+
+    .formulir-kontak {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .pilihan {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .tombol-form {
+        flex-direction: column;
+    }
+
+}
